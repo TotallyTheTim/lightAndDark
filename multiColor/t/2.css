@@ -1,0 +1,16 @@
+#colorTwoB{
+    background: blue !important;
+}
+
+body.themeTwo {
+    background: blue;
+}
+
+.themeTwo header{
+    background: #000068;
+    color: white;
+}
+
+.themeTwo #colors{
+    transform: rotate(-270deg);
+}

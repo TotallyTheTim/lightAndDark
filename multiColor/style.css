@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    min-height: 30px;
+    padding: 10px;
+    background: gray;
+}
+header > div{
+    display: inline-block;
+    position: fixed;
+    right: 25px;
+}
+h1{
+    display: inline-block;
+    width: max-content;
+}
+.banner{
+    background-size: cover;
+    background: url("https://wallpaperspit.com/wp-content/uploads/2017/11/Forest-HD-Wallpapers-1080p.jpg") center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: max-content;
+    border-radius: 50px;
+    height: max-content;
+    background: black;
+    /*width: 100px;*/
+    padding: 0px;
+    margin: 16px;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+#colors > div{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    box-shadow: inset black 0 0 5px;
+    background: white;
+    transition: 0.2s ease-in-out;
+}
+
+#colors:hover{
+    margin: 0;
+    padding: 10px;
+}
+
+#colors:hover > div{
+    margin: 3px;
+    border-radius: 10px;
+}
+
+#colors > div:hover{
+    transform: scale(1.3);
+}

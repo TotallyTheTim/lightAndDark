@@ -1,0 +1,16 @@
+#colorOneB{
+    background: red !important;
+}
+
+body.themeOne {
+    background: red;
+}
+
+.themeOne header{
+    background: #620000;
+    color: white;
+}
+
+.themeOne #colors{
+    transform: rotate(-90deg);
+}
